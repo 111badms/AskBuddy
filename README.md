@@ -49,14 +49,38 @@ We welcome contributions! Follow these steps:
 
 ---
 
-## License
-This project is licensed under the **MIT License**.
+## Contact Us
+
+Have questions or need support? Reach out to us!
+
+📧 **Email Support:** [support@askbuddy.com](mailto:support@askbuddy.com)  
+🌐 **Website:** [www.askbuddy.com](https://www.askbuddy.com)  
+📱 **Follow us on social media:** @AskBuddyApp  
+
+### Contact Form Integration
+Want to enable customers to send messages directly to your email? Follow these steps:
+
+1. **Use a Contact Form Service** like Formspree, Getform, or Google Forms.
+2. **Example HTML Form (Formspree):**
+```html
+<form action="https://formspree.io/f/your-form-id" method="POST">
+    <label>Name:</label>
+    <input type="text" name="name" required>
+    <label>Email:</label>
+    <input type="email" name="email" required>
+    <label>Message:</label>
+    <textarea name="message" required></textarea>
+    <button type="submit">Send Message</button>
+</form>
+```
+3. **Google reCAPTCHA Integration** (for spam protection) can be added if needed.
+
+Now, all customer messages will go **directly to your email inbox** securely!
 
 ---
 
-## Contact
-📧 Email: support@askbuddy.com  
-🌐 Website: [www.askbuddy.com](https://www.askbuddy.com)  
-📱 Follow us on social media @AskBuddyApp
+## License
+This project is licensed under the **MIT License**.
+
 
 
